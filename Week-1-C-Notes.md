@@ -1,18 +1,32 @@
-<h1>Week 1 Notes</h1>
+# Week 1 Notes
 
-<strong>Why use C?</strong>\
-C is small, fast, and close to the hardware. It forces you to think about memory and types.
+## Why use C?
+C is **small, fast, and close to the hardware**.  
+It forces you to think explicitly about memory and types.
 
-<strong>Development Environment:</strong>
-| Command| Purpose                             | Example     |
-|--------|-------------------------------------|-------------|
-| cd     | change directory                    | cd pset1    |
-| ls     | list files                          | ls -1       |
-| mkdir  | make directory                      | mkdir hello |
-| cod .  | open VS Code web in current folder  |             |
-| rm     | remove file                         | rm a.out    |
+---
 
-<strong>Compiling</strong>\
-   &ensp;&ensp;&ensp;&ensp;make hello\
-   &ensp;&ensp;&ensp;&ensp;./hello \
-*Pre-processing -> Compiling -> Assembling -> Linking*
+## Development Environment
+
+| Command | Purpose                                   | Example        |
+| :------ | :---------------------------------------- | :------------- |
+| `cd`    | Change directory                          | `cd pset1`     |
+| `ls`    | List files                                | `ls -1`        |
+| `mkdir` | Make directory                            | `mkdir hello`  |
+| `code .`| Open VS Code in the current folder        | `code .`       |
+| `rm`    | Remove file                               | `rm a.out`     |
+
+---
+
+## Compiling
+
+```bash
+make hello
+./hello
+```
+
+*Build stages:* **Pre-processing → Compiling → Assembling → Linking**
+
+---
+
+## Debugging Help
