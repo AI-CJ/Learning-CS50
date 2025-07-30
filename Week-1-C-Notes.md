@@ -14,7 +14,7 @@ For the C program:
 # Week 1 Problem Set and Solution
 
 TO DO: Insert problem statement
-TO DO: Insert solution
+*Solution in private repo to respect CS50's Academic Honest Policy.*
 
 ---
 
